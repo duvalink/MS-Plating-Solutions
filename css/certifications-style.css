@@ -208,4 +208,8 @@ footer {
   .certificados img {
     width: 500px;
   }
+
+  .cert-nadcap img {
+    margin-right: 5%;
+  }
 }

@@ -227,6 +227,10 @@ footer {
   .menu {
     width: 75%;
   }
+
+  .ancho {
+    width: 75%;
+  }
 }
 
 @media (max-width: 1366px) {
@@ -249,7 +253,7 @@ footer {
 
   .wrapper {
     margin: auto;
-    width: 80%;
+    width: 85%;
   }
 
   .single-image img {

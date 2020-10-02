@@ -450,6 +450,11 @@ footer {
   .menu {
     width: 70%;
   }
+
+  .black-oxide-txt {
+    margin-left: 27%;
+  }
+
 }
 
 @media (max-width: 1366px) {
@@ -527,6 +532,10 @@ footer {
   .black-oxide .img-2 {
     margin-top: 2%;
     margin-bottom: 4%;
+  }
+
+  .black-oxide-txt {
+    margin-left: 27%;
   }
 
   .hard-chrome .img-2 {
