@@ -1,0 +1,548 @@
+@font-face {
+  font-family: "lulo";
+  src: url("../font/FontsFree-Net-Lulo-Clean-W01-One-Bold.ttf");
+}
+
+@font-face {
+  font-family: "futura-lt";
+  src: url("../font/Futura/futura\ light\ bt.ttf");
+}
+
+@font-face {
+  font-family: "futura-bold";
+  src: url("../font/Futura/Futura\ Bold\ font.ttf");
+}
+
+@font-face {
+  font-family: "futura-md";
+  src: url("../font/Futura/futura\ medium\ bt.ttf");
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+header {
+  width: 100%;
+  height: 152px;
+  background-color: white;
+  padding-bottom: 3%;
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+}
+
+.ancho {
+  width: 75%;
+  height: 152px;
+  background-color: white;
+  margin: auto;
+  transform: translateX();
+  transition: all 1.5s;
+}
+
+.logo img {
+  width: 25%;
+  height: 130px;
+  padding-top: 15px;
+  float: left;
+  box-sizing: border-box;
+}
+
+.menu {
+  width: 75%;
+  height: 152px;
+  float: left;
+  text-align: center;
+  padding-top: 75px;
+  box-sizing: border-box;
+}
+
+.menu ul li {
+  display: inline;
+  margin-right: 2%;
+  margin-left: 2%;
+}
+
+.menu ul li a {
+  color: #1a2b6d;
+  font-size: 16px;
+  font-family: sans-serif;
+  font-weight: bolder;
+  text-decoration: none;
+  letter-spacing: 4px;
+  border-top: 1px solid #323232;
+  padding-top: 10px;
+}
+
+.menu ul li a:hover {
+  color: red;
+  border-top: 3px solid black;
+}
+
+.banner-gral {
+  display: block;
+
+  width: 1548px;
+  height: 65px;
+  background-color: #323232;
+  margin: auto;
+  color: white;
+}
+
+.banner-gral p {
+  font-family: helvetica, arial;
+  padding-top: 20px;
+  text-align: center;
+  font-size: 16px;
+}
+
+.banner-gral p span {
+  color: #323232;
+}
+
+.banner {
+  position: relative;
+  overflow: hidden;
+  margin-top: 11%;
+  width: 100%;
+}
+
+.text {
+  display: block;
+  position: absolute;
+  z-index: 10;
+  bottom: 40%;
+  color: white;
+  font-family: sans-serif;
+  font-size: 66px;
+  font-weight: bold;
+  letter-spacing: 3px;
+  width: 100%;
+  height: 15%;
+  padding: 0.3em;
+  text-align: center;
+  text-align: center;
+  animation: fadeIn 1s;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.clearfix {
+  clear: both;
+}
+
+body {
+  background-color: #f2f2f2;
+}
+
+.anodizing {
+  width: 50%;
+  margin-left: 25%;
+  margin-top: 2%;
+  margin-right: 15%;
+}
+
+.title h1 {
+  font-family: lulo;
+  font-size: 24px;
+  color: #2b689c;
+}
+
+.img-1,
+.img-2 {
+  margin-top: 2%;
+  float: left;
+  margin-right: 5%;
+}
+
+.anodizing-txt {
+  width: 80%;
+  display: block;
+  margin-left: 20%;
+  margin-top: 2%;
+}
+
+.anodizing-txt span {
+  font-family: futura-md;
+  color: red;
+  font-size: 24px;
+}
+
+.anodizing-txt p {
+  font-family: helvetica;
+  font-style: italic;
+  font-size: 16px;
+}
+
+.txt-blue {
+  font-style: normal;
+  font-family: helvetica;
+  color: #2b689c;
+}
+
+.chem-film {
+  width: 50%;
+  margin-left: 25%;
+  margin-top: 5%;
+  margin-right: 15%;
+}
+
+.chemfilm-txt {
+  width: 80%;
+  display: block;
+  margin-left: 20%;
+  margin-top: 4%;
+}
+
+.chemfilm-txt span {
+  font-family: futura-md;
+  color: red;
+  font-size: 24px;
+}
+
+.chemfilm-txt p {
+  font-family: helvetica;
+  font-style: italic;
+  font-size: 16px;
+}
+
+.zinc-plating {
+  width: 50%;
+  margin-left: 25%;
+  margin-top: 5%;
+  margin-right: 15%;
+}
+
+.zinc-plating-txt {
+  width: 80%;
+  display: block;
+  margin-left: 20%;
+}
+
+.zinc-plating-txt span {
+  font-family: futura-md;
+  color: red;
+  font-size: 24px;
+}
+
+.zinc-plating-txt p {
+  font-family: helvetica;
+  font-style: italic;
+  font-size: 16px;
+}
+
+.copper-plating {
+  width: 50%;
+  margin-left: 25%;
+  margin-top: 5%;
+  margin-right: 15%;
+}
+
+.copper-plating-txt {
+  width: 80%;
+  display: block;
+  margin-left: 20%;
+  margin-top: 2%;
+}
+
+.copper-plating-txt span {
+  font-family: futura-md;
+  color: red;
+  font-size: 24px;
+}
+
+.copper-plating-txt p {
+  font-family: helvetica;
+  font-style: italic;
+  font-size: 16px;
+}
+
+.black-oxide {
+  width: 50%;
+  margin-left: 25%;
+  margin-top: 5%;
+  margin-right: 15%;
+}
+
+.black-oxide-txt {
+  width: 80%;
+  display: block;
+  margin-left: 20%;
+}
+
+.black-oxide-txt span {
+  font-family: futura-md;
+  color: red;
+  font-size: 24px;
+}
+
+.black-oxide-txt p {
+  font-family: helvetica;
+  font-style: italic;
+  font-size: 16px;
+}
+
+.chemical-passivation {
+  width: 50%;
+  margin-left: 25%;
+  margin-top: 5%;
+  margin-right: 15%;
+}
+
+.chemical-passivation-txt {
+  width: 80%;
+  display: block;
+  margin-left: 20%;
+}
+
+.chemical-passivation-txt span {
+  font-family: futura-md;
+  color: red;
+  font-size: 24px;
+}
+
+.chemical-passivation-txt p {
+  font-family: helvetica;
+  font-style: italic;
+  font-size: 16px;
+}
+
+.hard-chrome {
+  width: 50%;
+  margin-left: 25%;
+  margin-top: 5%;
+  margin-right: 15%;
+}
+
+.hard-chrome-txt {
+  width: 80%;
+  display: block;
+  margin-left: 20%;
+}
+
+.hard-chrome-txt span {
+  font-family: futura-md;
+  color: red;
+  font-size: 24px;
+}
+
+.hard-chrome-txt p {
+  font-family: helvetica;
+  font-style: italic;
+  font-size: 16px;
+}
+
+.tin-tin {
+  width: 50%;
+  margin-left: 25%;
+  margin-top: 5%;
+  margin-right: 15%;
+}
+
+.tin-tin-txt {
+  width: 80%;
+  display: block;
+  margin-left: 20%;
+}
+
+.tin-tin-txt span {
+  font-family: futura-md;
+  color: red;
+  font-size: 24px;
+}
+
+.tin-tin-txt p {
+  font-family: helvetica;
+  font-style: italic;
+  font-size: 16px;
+}
+
+.tin-tin .img-14 {
+  padding-left: 35%;
+}
+.nickel-plating {
+  width: 50%;
+  margin-left: 25%;
+  margin-top: 5%;
+  margin-right: 15%;
+}
+
+.nickel-plating-txt {
+  width: 80%;
+  display: block;
+  margin-left: 34%;
+}
+
+.nickel-plating-txt span {
+  font-family: futura-md;
+  color: red;
+  font-size: 24px;
+}
+
+.nickel-plating-txt p {
+  font-family: helvetica;
+  font-style: italic;
+  font-size: 16px;
+}
+
+.nickel-plating .img-2 {
+  margin-top: 2%;
+  float: left;
+  padding-left: 7%;
+}
+
+.plating-plastics {
+  width: 50%;
+  margin-left: 25%;
+  margin-top: 5%;
+  margin-right: 15%;
+}
+
+.plating-plastics-txt {
+  width: 80%;
+  display: block;
+  margin-left: 34%;
+  margin-top: 2%;
+}
+
+.plating-plastics-txt p {
+  font-family: helvetica;
+  font-style: italic;
+  font-size: 16px;
+}
+
+.plating-plastics img {
+  padding-left: 20%;
+}
+
+.back {
+  font-family: sans-serif;
+  font-size: 20px;
+  margin-top: 7%;
+  margin-left: 15%;
+}
+
+.back a {
+  text-decoration: none;
+}
+
+footer {
+  width: 100%;
+  height: 40px;
+  color: white;
+  font-family: sans-serif;
+  text-align: center;
+  justify-content: center;
+  padding-top: 15px;
+  background-color: #1a2b6d;
+}
+
+@media (min-width: 1367px) {
+  .menu {
+    width: 70%;
+  }
+}
+
+@media (max-width: 1366px) {
+  .banner {
+    margin-top: 16%;
+  }
+
+  .ancho {
+    width: 80%;
+    margin: auto;
+    padding-left: 10%;
+    transform: translateX();
+    transition: all 1.5s;
+  }
+
+  .menu ul li a {
+    letter-spacing: normal;
+  }
+  .banner-gral {
+    width: 100%;
+  }
+
+  .anodizing {
+    width: 70%;
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+  .chem-film {
+    width: 70%;
+    margin: auto;
+    margin-bottom: 5%;
+  }
+  .zinc-plating {
+    width: 70%;
+    margin: auto;
+    margin-bottom: 5%;
+  }
+  .copper-plating {
+    width: 70%;
+    margin: auto;
+    margin-bottom: 5%;
+  }
+  .black-oxide {
+    width: 70%;
+    margin: auto;
+    margin-bottom: 5%;
+  }
+  .chemical-passivation {
+    width: 70%;
+    margin: auto;
+    margin-bottom: 5%;
+  }
+  .hard-chrome {
+    width: 70%;
+    margin: auto;
+    margin-bottom: 5%;
+  }
+  .tin-tin {
+    width: 70%;
+    margin: auto;
+    margin-bottom: 5%;
+  }
+  .nickel-plating {
+    width: 70%;
+    margin: auto;
+    margin-bottom: 5%;
+  }
+  .plating-plastics {
+    width: 70%;
+    margin: auto;
+    margin-bottom: 5%;
+  }
+
+  .black-oxide .img-2 {
+    margin-top: 2%;
+    margin-bottom: 4%;
+  }
+
+  .hard-chrome .img-2 {
+    margin-top: 3%;
+    margin-bottom: 3%;
+  }
+
+  .nickel-plating-txt {
+    width: 70%;
+  }
+
+  .plating-plastics-txt {
+    width: 70%;
+  }
+
+  .chemfilm-txt {
+    width: 90%;
+  }
+}

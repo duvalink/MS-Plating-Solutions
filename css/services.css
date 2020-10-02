@@ -1,0 +1,468 @@
+@font-face {
+  font-family: "lulo";
+  src: url("../font/FontsFree-Net-Lulo-Clean-W01-One-Bold.ttf");
+}
+
+@font-face {
+  font-family: "avenir";
+  src: url("../font/avenir_ff/AvenirLTStd-Black.otf");
+}
+
+@font-face {
+  font-family: "futura";
+  src: url("../font/Futura/futura\ medium\ bt.ttf");
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+header {
+  width: 100%;
+  height: 152px;
+  background-color: white;
+  padding-bottom: 3%;
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+}
+
+.ancho {
+  width: 71%;
+  height: 152px;
+  background-color: white;
+  margin: auto;
+  transform: translateX();
+  transition: all 1.5s;
+}
+
+.logo img {
+  width: 25%;
+  height: 130px;
+  padding-top: 15px;
+  float: left;
+  box-sizing: border-box;
+}
+
+.menu {
+  width: 75%;
+  height: 152px;
+  float: left;
+  text-align: center;
+  padding-top: 75px;
+  box-sizing: border-box;
+}
+
+.menu ul li {
+  display: inline;
+  margin-right: 2%;
+  margin-left: 2%;
+}
+
+.menu ul li a {
+  color: #1a2b6d;
+  font-size: 16px;
+  font-family: sans-serif;
+  font-weight: bolder;
+  text-decoration: none;
+  letter-spacing: 4px;
+  border-top: 1px solid #323232;
+  padding-top: 10px;
+}
+
+.menu ul li a:hover {
+  color: red;
+  border-top: 3px solid black;
+}
+
+.banner-gral {
+  display: block;
+
+  width: 1548px;
+  height: 65px;
+  background-color: #323232;
+  margin: auto;
+  color: white;
+}
+
+.banner-gral p {
+  font-family: helvetica, arial;
+  padding-top: 20px;
+  text-align: center;
+  font-size: 16px;
+}
+
+.banner-gral p span {
+  color: #323232;
+}
+
+.banner {
+  position: relative;
+  overflow: hidden;
+  margin-top: 11%;
+  width: 100%;
+}
+
+.text {
+  display: block;
+  position: absolute;
+  z-index: 10;
+  bottom: 40%;
+  color: white;
+  font-family: sans-serif;
+  font-size: 66px;
+  font-weight: bold;
+  letter-spacing: 3px;
+  width: 100%;
+  height: 15%;
+  padding: 0.3em;
+  text-align: center;
+  animation: fadeIn 1s;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.texto {
+  width: 70%;
+  margin: auto;
+  margin-top: 5%;
+}
+
+.texto p {
+  font-size: 18px;
+  font-family: helvetica;
+  color: #575757;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.form {
+  width: 40%;
+  float: left;
+  font-size: 13px;
+  margin: auto;
+  margin-top: 10%;
+  text-align: center;
+  margin-left: 5%;
+}
+
+#nombre,
+#apellido,
+#email,
+#phone,
+#textarea {
+  color: #2b689c;
+  font-size: 13px;
+  background-color: #c7c7c780;
+}
+
+#nombre,
+#apellido {
+  width: 40%;
+  height: 55px;
+  padding-left: 2%;
+  border: none;
+}
+
+#apellido {
+  margin-left: -5px;
+}
+
+#nombre,
+#apellido {
+  border-bottom: 1px solid black;
+}
+
+#email,
+#phone {
+  width: 40%;
+  height: 55px;
+  padding-left: 2%;
+  border: none;
+  border-bottom: 1px solid black;
+}
+
+#phone {
+  margin-left: -5px;
+}
+
+#textarea {
+  width: 81.7%;
+  height: 100px;
+  border: none;
+  padding-left: 2%;
+  border-bottom: 1px solid black;
+}
+
+#button {
+  width: 20%;
+  height: 45px;
+  margin-top: 10%;
+  align-items: center;
+  background-color: #00739f;
+  color: white;
+  border-radius: 20px;
+}
+
+#nombre:focus,
+#apellido:focus,
+#email:focus,
+#phone:focus,
+#textarea:focus {
+  background-color: #ffecf1;
+  border-bottom: 2px solid blue;
+}
+
+.direction {
+  float: left;
+  margin-top: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.direction h2 {
+  font-family: futura;
+  color: #d41317;
+  font-size: 24px;
+}
+
+.direction p {
+  width: 40%;
+  font-size: 16px;
+  font-family: helvetica;
+  color: #525252;
+}
+
+#map {
+  width: 75%;
+  height: 300px;
+}
+
+footer {
+  width: 100%;
+  height: 40px;
+  color: white;
+  font-family: sans-serif;
+  text-align: center;
+  justify-content: center;
+  padding-top: 15px;
+  background-color: #1a2b6d;
+  margin-top: 5%;
+}
+
+@media (min-width: 1367px) {
+  .form {
+    width: 43%;
+    margin-left: 12%;
+    margin-top: 5%;
+  }
+  .direction {
+    width: 40%;
+    margin: auto;
+    margin-right: 5%;
+  }
+
+  h2 {
+    width: 20%;
+  }
+
+  .direction p {
+    width: 40%;
+  }
+}
+
+@media (max-width: 1366px) {
+  .banner {
+    margin-top: 16%;
+  }
+
+  .ancho {
+    width: 80%;
+    margin: auto;
+    padding-left: 10%;
+    transform: translateX();
+    transition: all 1.5s;
+  }
+
+  .menu {
+    width: 74%;
+  }
+
+  .menu ul li a {
+    letter-spacing: normal;
+  }
+  .banner-gral {
+    width: 100%;
+  }
+
+  .direction p {
+    width: 73%;
+  }
+
+  #map {
+    width: 100%;
+  }
+}
+
+/* ******Seccion SERVICES****** */
+
+.title {
+  width: 70%;
+  margin: auto;
+  margin-top: 3%;
+}
+
+.a-1 {
+  width: 142px;
+  height: 40px;
+  text-decoration: none;
+  background-color: #00739f;
+  text-align: center;
+  margin: auto;
+  border-radius: 20px;
+  margin-top: 5%;
+  margin-bottom: 10%;
+}
+
+.a-1 a {
+  text-decoration: none;
+  line-height: 40px;
+  color: white;
+  font-family: sans-serif;
+  font-size: 13px;
+}
+
+.os-1 {
+  float: left;
+}
+
+.os-2 {
+  float: left;
+  margin-left: 1%;
+}
+
+.title h1 {
+  margin-left: 5%;
+
+  font-family: lulo;
+  font-size: 24px;
+  color: #292929;
+}
+
+.wrapper {
+  width: 80%;
+  margin: auto;
+  margin-left: 15%;
+}
+
+.wrapper h1 {
+  margin-left: 5%;
+  font-family: lulo;
+  font-size: 24px;
+  color: #292929;
+}
+
+.img-area {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  padding-top: 2%;
+}
+
+.single-image {
+  padding: 0 5px 5px;
+}
+
+.wrapper img {
+  box-shadow: 0px 9px 5px -5px rgba(0, 0, 0, 0.75);
+}
+
+.title img {
+  box-shadow: 0px 9px 5px -5px rgba(0, 0, 0, 0.75);
+}
+
+img:hover {
+  filter: brightness(70%);
+  /* transition: 0.5s; */
+}
+
+.back {
+  font-family: sans-serif;
+  font-size: 20px;
+  margin-top: 7%;
+  margin-left: 15%;
+}
+
+.back a {
+  text-decoration: none;
+}
+
+footer {
+  width: 100%;
+  height: 40px;
+  color: white;
+  font-family: sans-serif;
+  text-align: center;
+  justify-content: center;
+  padding-top: 15px;
+  background-color: #1a2b6d;
+}
+
+@media (min-width: 1367px) {
+  .title {
+    width: 60%;
+    margin-left: 26%;
+  }
+
+  .wrapper {
+    width: 60%;
+    margin: auto;
+    margin-left: 26%;
+  }
+
+  .menu {
+    width: 74%;
+  }
+
+  #map {
+    width: 60%;
+  }
+}
+
+@media (min-width: 1367px) {
+  .menu {
+    width: 75%;
+  }
+}
+
+@media (max-width: 1366px) {
+  .banner {
+    margin-top: 16%;
+  }
+
+  .ancho {
+    width: 80%;
+    margin: auto;
+    padding-left: 10%;
+    transform: translateX();
+    transition: all 1.5s;
+  }
+
+  .menu ul li a {
+    letter-spacing: normal;
+  }
+  .banner-gral {
+    width: 100%;
+  }
+}

@@ -1,0 +1,255 @@
+@font-face {
+  font-family: "lobster";
+  src: url("../font/Lobster-Regular.ttf");
+}
+
+@font-face {
+  font-family: "open-sans";
+  src: url("../font/Open_Sans/OpenSans-Bold.ttf");
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+header {
+  width: 100%;
+  height: 152px;
+  background-color: white;
+  padding-bottom: 2%;
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+}
+
+.ancho {
+  width: 71%;
+  height: 152px;
+  background-color: white;
+  margin: auto;
+  transform: translateX();
+  transition: all 1.5s;
+}
+
+.logo img {
+  width: 25%;
+  height: 130px;
+  padding-top: 15px;
+  float: left;
+  box-sizing: border-box;
+}
+
+.menu {
+  width: 75%;
+  height: 152px;
+  float: left;
+  text-align: center;
+  padding-top: 75px;
+  box-sizing: border-box;
+}
+
+.menu ul li {
+  display: inline;
+  margin-right: 2%;
+  margin-left: 2%;
+}
+
+.menu ul li a {
+  color: #1a2b6d;
+  font-size: 16px;
+  font-family: sans-serif;
+  font-weight: bolder;
+  text-decoration: none;
+  letter-spacing: 4px;
+  border-top: 1px solid #323232;
+  padding-top: 10px;
+}
+
+.menu ul li a:hover {
+  color: red;
+  border-top: 3px solid black;
+}
+
+.banner-gral {
+  display: block;
+  width: 1548px;
+  height: 65px;
+  background-color: #323232;
+  margin: auto;
+  color: white;
+}
+
+.banner-gral p {
+  font-family: helvetica, arial;
+  padding-top: 20px;
+  text-align: center;
+  font-size: 16px;
+}
+
+.banner-gral p span {
+  color: #323232;
+}
+
+.clearfix {
+  clear: both;
+}
+
+body {
+  background-color: #edf7fc;
+  margin-top: 10%;
+}
+
+.ancho-texto {
+  margin-top: 30px;
+  width: 100%;
+  height: 700px;
+}
+
+.texto {
+  width: 40%;
+  height: 640px;
+  float: left;
+  padding-left: 10%;
+}
+
+.video-clip {
+  float: left;
+  margin-top: 10%;
+}
+
+.texto_2 {
+  width: 60%;
+  float: left;
+  padding-top: 5%;
+  padding-left: 20%;
+}
+.texto_2 p {
+  font-size: 16px;
+  font-family: helvetica, arial;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+.texto_1 {
+  float: left;
+  padding-top: 50px;
+  padding-left: 20%;
+  color: #605e5e;
+  text-align: center;
+}
+
+.line1 {
+  font-size: 20px;
+  font-family: sans-serif;
+  margin-top: 10px;
+}
+
+.line2 {
+  font-size: 40px;
+  font-family: sans-serif;
+  padding-top: 10px;
+}
+
+.line3 {
+  font-size: 40px;
+  font-family: lobster;
+  padding-top: 5px;
+}
+
+#line4 {
+  font-size: 40px;
+  font-family: sans-serif;
+  padding-top: 5px;
+}
+
+.line4-5 {
+  font-size: 40px;
+  font-family: open-sans;
+  padding-top: 5px;
+}
+
+.line5 {
+  font-size: 40px;
+  font-family: open-sans;
+  padding-top: 5px;
+}
+
+.badges {
+  margin: auto;
+  text-align: center;
+}
+
+.back {
+  font-family: sans-serif;
+  font-size: 20px;
+  margin-top: 20px;
+  margin-left: 27%;
+}
+
+.back a {
+  text-decoration: none;
+}
+
+footer {
+  width: 100%;
+  height: 40px;
+  color: white;
+  font-family: sans-serif;
+  text-align: center;
+  justify-content: center;
+  padding-top: 15px;
+  background-color: #1a2b6d;
+}
+
+@media (min-width: 1367px) {
+  .menu {
+    width: 75%;
+  }
+}
+
+@media (max-width: 1366px) {
+  .banner {
+    margin-top: 17%;
+  }
+
+  .ancho {
+    width: 80%;
+    margin: auto;
+    padding-left: 10%;
+  }
+
+  .menu ul li a {
+    letter-spacing: normal;
+  }
+  .banner-gral {
+    width: 100%;
+  }
+
+  .texto {
+    margin-top: 8%;
+    padding-left: 3%;
+    margin-right: 3%;
+  }
+
+  .texto_2 {
+    padding-left: 30%;
+  }
+
+  .boton {
+    margin-top: 5%;
+    margin-left: 20%;
+  }
+
+  .back {
+    margin-left: 15%;
+  }
+
+  .video-clip {
+    margin-top: 20%;
+  }
+
+  .badges {
+    margin-top: 5%;
+  }
+}

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/index-style.css" />
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery.bxslider.js"></script>
+    <link rel="stylesheet" href="css/jquery.bxslider.css" />
+
+    <title>HOME | MS Plating</title>
+  </head>
+  <body>
+    <header>
+      <div class="ancho">
+        <div class="logo">
+          <a href="index.html">
+          <img src="img/logo-ms-plating.png" alt="" />
+          </a>
+        </div>
+        <nav class="menu">
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about_us.html">ABOUT US</a></li>
+            <li><a href="certifications.html">CERTIFICATIONS</a></li>
+            <li><a href="services.html">SERVICES</a></li>
+            <li><a href="facility.html">FACILITY</a></li>
+            <li><a href="contact.html">CONTACT US</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="banner-gral">
+        <p>
+          Industrial del Papel No. 22. Industrial Park "El Vigia", Mexicali,
+          Baja California, Mexico<span>-----</span> Tel. +52 (686) 580 1722<span
+            >-----</span
+          >
+          Email: sales1@manufacturingsolutions.com.mx
+        </p>
+      </div>
+
+      <div class="container">
+        <ul class="bxslider">
+          <li>
+            <img src="img/img_1-2x.png" alt="" width="1920" height="663" />
+          </li>
+          <li>
+            <img src="img/img_2x.png" alt="" width="1920" height="663" />
+          </li>
+          <li>
+            <img src="img/img_2-2x.png" alt="" width="1920" height="663" />
+          </li>
+          <li>
+            <img src="img/img_3-2x.png" alt="" width="1920" height="663" />
+          </li>
+          <li>
+            <img src="img/img-3.jpg" alt="" width="1920" height="663" />
+          </li>
+          <li>
+            <img src="img/img-4.jpg" alt="" width="1920" height="663" />
+          </li>
+        </ul>
+      </div>
+      <div class="fuente">
+        <p class="fuente">"<span class="strong">Quality</span> is not only a</p>
+        <p class="fuente-1">
+          departmen, <span class="sub">it is a life style"</span>
+        </p>
+      </div>
+
+      <script type="text/javascript">
+        $(document).ready(function () {
+          $(".bxslider").bxSlider({
+            mode: "fade",
+            captions: true,
+            auto: true,
+            autoControls: true,
+          });
+        });
+      </script>
+
+      <!-- Fin de slider -->
+      <a href="about_us.html" class="boton_1">ABOUT US</a>
+      <a href="services.html" class="boton_2">SERVICES</a>
+    </header>
+
+    <div class="clearfix">
+
+    <div class="cert">
+      <p>Our Certifications:</p>
+      <div class="logo_cert">
+        <img class="cert1" src="img/logo-2.png" alt="" width="300" height="120" />
+        <img class="cert2" src="img/logo-1.png" alt="" width="300" height="155" />
+      </div>
+    </div>
+  </body>
+  <footer>
+    <p>2020 by MS Plating Solutions</p>
+  </footer>
+
+</html>
