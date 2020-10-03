@@ -265,6 +265,11 @@ footer {
 }
 
 @media (max-width: 1280px){
+
+.ancho {
+  width: 85%;
+}
+
   .container .img-13 {
     width: 350px;
   }
