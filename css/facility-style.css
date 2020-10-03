@@ -160,6 +160,14 @@ footer {
   background-color: #1a2b6d;
 }
 
+@media (max-width: 1600px) {
+  .ancho {
+    width: 85%;
+  }
+}
+
+
+
 @media (min-width: 1367px) {
   .menu {
     width: 75%;

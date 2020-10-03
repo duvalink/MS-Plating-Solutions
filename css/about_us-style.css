@@ -202,6 +202,17 @@ footer {
   background-color: #1a2b6d;
 }
 
+@media (min-width: 1600px) {
+  .ancho {
+    width: 85%;
+  }
+
+  .texto_1 {
+    margin-top: 10%;
+  }
+}
+
+
 @media (min-width: 1367px) {
   .menu {
     width: 75%;

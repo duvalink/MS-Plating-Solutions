@@ -149,7 +149,7 @@ section .container .contactinfo {
   position: absolute;
   top: 40px;
   width: 40%;
-  height: calc(100% - 80px);
+  height: calc(100% - -25px);
   background: #0f3959;
   z-index: 1;
   padding: 5%;
@@ -167,14 +167,13 @@ section .container .contactinfo h2 {
 
 section .container .contactinfo .info {
   position: relative;
-  margin: 20px 0;
 }
 
 section .container .contactinfo .info li {
   position: relative;
   list-style: none;
   display: flex;
-  margin: 20px 0;
+  margin: 3% 0;
   cursor: pointer;
   align-items: flex-start;
 }
@@ -316,6 +315,17 @@ section .container .contacForm .formBox .inputBox input[type="submit"] {
 section .container .contacForm .formBox .inputBox input[type="submit"]:hover {
   background: #00739f;
 }
+
+.map {
+  margin-left: -10%;
+}
+
+@media (max-width: 1600px) {
+  .ancho {
+    width: 85%;
+  }
+}
+
 
 @media screen and (max-width: 1366px) {
   section .container .contacForm {

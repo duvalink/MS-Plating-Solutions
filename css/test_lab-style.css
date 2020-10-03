@@ -180,7 +180,6 @@ body {
   margin-bottom: 2%;
 }
 
-
 .single-image .txt {
   width: 70%;
   font-family: Lulo;
@@ -223,13 +222,13 @@ footer {
   background-color: #1a2b6d;
 }
 
-@media (min-width: 1367px) {
-  .menu {
-    width: 75%;
+@media (max-width: 1600px) {
+  .ancho {
+    width: 85%;
   }
 
-  .ancho {
-    width: 75%;
+  .wrapper {
+    width: 70%;
   }
 }
 

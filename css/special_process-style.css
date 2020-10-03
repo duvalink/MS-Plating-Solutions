@@ -446,6 +446,51 @@ footer {
   background-color: #1a2b6d;
 }
 
+@media (max-width: 1600px) {
+  .ancho {
+    width: 90%;
+  }
+
+  .anodizing-txt {
+    width: 90%;
+  }
+
+  .zinc-plating-txt {
+    width: 90%;
+    margin-left: 38%;
+  }
+
+  .copper-plating-txt {
+    margin-left: 25%;
+  }
+
+  .black-oxide {
+    width: 55%;
+  }
+
+  .black-oxide-txt {
+    margin-left: 40%;
+  }
+
+  .chemical-passivation-txt {
+    margin-left: 30%;
+  }
+
+  .hard-chrome-txt {
+    width: 90%;
+    margin-left: 25%;
+  }
+
+  .tin-tin {
+    width: 55%;
+    margin-left: 25%;
+  }
+
+  .nickel-plating {
+    width: 60%;
+  }
+}
+
 @media (min-width: 1367px) {
   .menu {
     width: 70%;
@@ -454,7 +499,6 @@ footer {
   .black-oxide-txt {
     margin-left: 27%;
   }
-
 }
 
 @media (max-width: 1366px) {

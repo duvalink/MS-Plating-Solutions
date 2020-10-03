@@ -440,6 +440,18 @@ footer {
   }
 }
 
+@media (min-width: 1600px) {
+  .ancho {
+    width: 85%;
+  }
+
+  .wrapper {
+    width: 70%;
+    margin-left: 26%;
+  }
+}
+
+
 @media (min-width: 1367px) {
   .menu {
     width: 75%;

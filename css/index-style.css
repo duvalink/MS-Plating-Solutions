@@ -173,9 +173,32 @@ footer p {
   padding-top: 15px;
 }
 
-@media (min-width: 1367px) {
-  .menu {
-    width: 75%;
+@media (max-width: 1600px) {
+  .ancho {
+    width: 85%;
+  }
+
+  .boton_1 {
+    margin-left: 35%;
+    margin-top: 5%;
+  }
+
+  .boton_2 {
+    margin-right: 35%;
+    margin-top: 5%;
+  }
+
+  .cert {
+    width: 100%;
+  }
+
+  .cert p {
+    margin-top: 17%;
+  }
+
+  .cert img {
+    margin: auto;
+    margin-top: 15%;
   }
 }
 

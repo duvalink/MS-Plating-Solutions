@@ -175,6 +175,29 @@ footer {
   background-color: #1a2b6d;
 }
 
+@media (min-width: 1600px) {
+  @media (min-width: 1600px) {
+    .ancho {
+      width: 85%;
+    }
+
+    .certificados {
+      width: 100%;
+    }
+
+    .cert-nadcap img{
+      margin-right: 5%
+    }
+
+    .cert-abs img {
+      margin-left: 5%;
+    }
+  
+  }
+   
+}
+
+
 @media (min-width: 1367px) {
   .menu {
     width: 75%;
