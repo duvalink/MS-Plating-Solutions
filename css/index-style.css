@@ -96,7 +96,7 @@ header {
   position: relative;
   text-decoration: none;
   margin-top: 100px;
-  margin-left: 750px;
+  margin-left: 35%;
   padding-top: 15px;
   padding-bottom: 15px;
   padding-left: 50px;
@@ -114,7 +114,7 @@ header {
 .boton_2 {
   display: block;
   float: right;
-  margin-right: 700px;
+  margin-right: 35%;
   position: relative;
   text-decoration: none;
   margin-top: 100px;
@@ -144,7 +144,7 @@ header {
 
 .cert p {
   float: left;
-  margin-top: 15%;
+  margin-top: 20%;
   font-size: 40px;
   color: #1a2b6d;
   font-weight: bolder;
@@ -155,7 +155,7 @@ header {
 .cert1,
 .cert2 {
   float: left;
-  margin-top: 12%;
+  margin-top: 17%;
   padding-left: 5%;
 }
 

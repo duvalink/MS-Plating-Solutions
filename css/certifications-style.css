@@ -138,7 +138,7 @@ header {
   float: left;
   width: 600px;
   /* height: 447px; */
-  margin-left: 10%;
+  margin-left: 13%;
 }
 
 .cert-nadcap img {
@@ -175,28 +175,23 @@ footer {
   background-color: #1a2b6d;
 }
 
-@media (min-width: 1600px) {
-  @media (min-width: 1600px) {
-    .ancho {
-      width: 85%;
-    }
-
-    .certificados {
-      width: 100%;
-    }
-
-    .cert-nadcap img{
-      margin-right: 5%
-    }
-
-    .cert-abs img {
-      margin-left: 5%;
-    }
-  
+@media (max-width: 1600px) {
+  .ancho {
+    width: 85%;
   }
-   
-}
 
+  .certificados {
+    width: 100%;
+  }
+
+  .cert-nadcap img {
+    margin-right: 5%;
+  }
+
+  .cert-abs img {
+    margin-left: 5%;
+  }
+}
 
 @media (min-width: 1367px) {
   .menu {
