@@ -263,3 +263,17 @@ footer {
     margin: auto;
   }
 }
+
+@media (max-width: 1280px){
+  .container .img-13 {
+    width: 350px;
+  }
+
+  .container .img-10 {
+    width: 350px;
+  }
+
+  .container .img-11 {
+    width: 600px;
+  }
+}
