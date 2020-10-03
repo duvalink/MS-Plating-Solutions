@@ -245,13 +245,19 @@ footer p {
 
   .boton_1 {
     margin-top: 5%;
+    margin-left: 30%;
   }
 
   .boton_2 {
-    margin-top: -4.5%;
+    margin-top: 5.5%;
+    margin-right: 30%;
   }
 
   .cert {
     width: 100%;
+  }
+
+  .cert p {
+    margin-top: 5%;
   }
 }
