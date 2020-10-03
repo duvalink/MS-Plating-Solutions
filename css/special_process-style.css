@@ -491,16 +491,6 @@ footer {
   }
 }
 
-@media (min-width: 1367px) {
-  .menu {
-    width: 70%;
-  }
-
-  .black-oxide-txt {
-    margin-left: 27%;
-  }
-}
-
 @media (max-width: 1366px) {
   .banner {
     margin-top: 16%;
@@ -599,3 +589,5 @@ footer {
     width: 90%;
   }
 }
+
+

@@ -265,3 +265,18 @@ footer {
     margin-top: 5%;
   }
 }
+
+@media (max-width:1280px){
+.ancho {
+  width: 90%;
+}
+
+.menu {
+  width: 70%;
+}
+
+  .logo img {
+    width: 25%;
+    margin-left: 0;
+  }
+}

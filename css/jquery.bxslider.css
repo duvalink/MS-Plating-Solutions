@@ -213,10 +213,15 @@ ul.bxslider {
   letter-spacing: 5px;
 }
 
-
-@media (max-width: 1600px){
+@media (max-width: 1600px) {
   .fuente {
     margin-top: -500px;
     margin-left: 198px;
+  }
+}
+
+@media (max-width: 1280px) {
+  .fuente {
+    margin-top: -450px;
   }
 }

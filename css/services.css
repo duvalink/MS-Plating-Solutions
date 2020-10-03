@@ -445,16 +445,15 @@ footer {
     width: 85%;
   }
 
-.title {
-  margin-left: 20%;
-}
+  .title {
+    margin-left: 20%;
+  }
 
   .wrapper {
     width: 70%;
     margin-left: 18%;
   }
 }
-
 
 @media (min-width: 1367px) {
   .menu {
@@ -480,5 +479,16 @@ footer {
   }
   .banner-gral {
     width: 100%;
+  }
+}
+
+@media (max-width: 1280px) {
+  .wrapper {
+    width: 80%;
+    margin-left: 13%;
+  }
+
+  .title {
+    margin-left: 13%;
   }
 }
