@@ -33,15 +33,16 @@ header {
 }
 
 .logo img {
-  width: 25%;
+  width: 20%;
   height: 130px;
   padding-top: 15px;
   float: left;
+  margin-left: 5%;
   box-sizing: border-box;
 }
 
 .menu {
-  width: 75%;
+  width: 71%;
   height: 152px;
   float: left;
   text-align: center;
@@ -225,7 +226,7 @@ footer {
   }
 
   .ancho {
-    width: 80%;
+    width: 85%;
     margin: auto;
     padding-left: 10%;
   }
