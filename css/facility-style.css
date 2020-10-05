@@ -168,11 +168,6 @@ footer {
 
 
 
-@media (min-width: 1367px) {
-  .menu {
-    width: 75%;
-  }
-}
 
 @media (max-width: 1366px) {
   .banner {
