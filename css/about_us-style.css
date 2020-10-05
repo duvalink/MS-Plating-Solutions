@@ -33,7 +33,7 @@ header {
 }
 
 .logo img {
-  width: 338px;
+  width: 25%;
   height: 130px;
   padding-top: 15px;
   float: left;
@@ -41,12 +41,11 @@ header {
 }
 
 .menu {
-  width: 73%;
+  width: 75%;
   height: 152px;
   float: left;
   text-align: center;
   padding-top: 75px;
-  margin-right: 0%;
   box-sizing: border-box;
 }
 
