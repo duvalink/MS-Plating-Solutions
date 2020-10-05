@@ -206,4 +206,9 @@ footer {
     width: 25%;
     margin-left: 0;
   }
+  .single-image .img-3 {
+    margin: auto;
+    margin-left: 4%;
+    align-items: center;
+  }
 }
