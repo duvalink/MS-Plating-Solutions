@@ -1,4 +1,5 @@
 <?php
+
 if (isset($_POST['submit'])) {
     $name = $_POST['name'];
     $lastName = $_POST['lastName'];
@@ -6,12 +7,14 @@ if (isset($_POST['submit'])) {
     $phone = $_POST['phone'];
     $message = $_POST['message'];
 
-    $mailTo = "jose86mend@gmail.com";
-    $headers = "From: " . $mailFrom;
-    $txt = "You have received an e-mail from " . $name . ".\n\n" . $message;
-
-    mail($mailTo, $txt, $headers);
-    header("Location: index.php?mailsend");
+    if (empty($name) || empty($lastName) || empty($mailFrom) || empty($phone) || empty($message)) {
+        header('Location::index.php?error');
+    } else {
+        $to = "jose86mend@gmail.com";
+        if (mail($to, $name, $lastName, $mailFrom, $phone, $message)) {
+            header('Location:index.php?success');
+        }
+    }
+} else {
+    header('Location:index.php');
 }
-
-?>
