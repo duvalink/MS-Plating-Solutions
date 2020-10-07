@@ -43,70 +43,72 @@
     </div>
 
     <section>
-      <div class="container">
-        <div class="contactinfo">
-          <h2>Contact Us</h2>
-          <ul class="info">
-            <li>
-              <span><img src="img/location.svg" alt="" width="30px" /></span>
-              <span>
-                Industrial del Papel No. 22. <br />
-                Industrial Park "El Vigia 1", <br />
-                Mexicali, Baja California, Mexico
-              </span>
-            </li>
-            <li>
-              <span><img src="img/mail.svg" alt="" width="40px" /> </span>
+      <form action="contactform.php" method="POST">
+        <div class="container">
+          <div class="contactinfo">
+            <h2>Contact Us</h2>
+            <ul class="info">
+              <li>
+                <span><img src="img/location.svg" alt="" width="30px" /></span>
+                <span>
+                  Industrial del Papel No. 22. <br />
+                  Industrial Park "El Vigia 1", <br />
+                  Mexicali, Baja California, Mexico
+                </span>
+              </li>
+              <li>
+                <span><img src="img/mail.svg" alt="" width="40px" /> </span>
 
-              <span>sales1@manufacturingsolutions.com.mx</span>
-            </li>
-            <li>
-              <span><img src="img/phone.svg" alt="" width="30px" /></span>
-              <span>+52 (686) 580 1722</span>
-            </li>
-          </ul>
-          <div class="map">
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3361.376964014355!2d-115.40526968462387!3d32.596136100493204!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80d776c7e386664f%3A0x61b4edbec5922c84!2sManufacturing%20Solutions%20De%20M%C3%A9xico%20S.A%20De%20C.V!5e0!3m2!1ses-419!2smx!4v1601683697615!5m2!1ses-419!2smx"
-              width="400"
-              height="300"
-              frameborder="0"
-              style="border: 0"
-              allowfullscreen=""
-              aria-hidden="false"
-              tabindex="0"
-            ></iframe>
-          </div>
-        </div>
-        <div class="contacForm">
-          <h2>Send a Message</h2>
-          <div class="formBox"  action="contactform.php" method="POST">
-            <div class="inputBox w50">
-              <input type="text" name="name" required />
-              <span>First Name</span>
-            </div>
-            <div class="inputBox w50">
-              <input type="text" name="lastName" required />
-              <span>Last Name</span>
-            </div>
-            <div class="inputBox w50">
-              <input type="text" name="mail" required />
-              <span>Email Address</span>
-            </div>
-            <div class="inputBox w50">
-              <input type="text" name="phone" required />
-              <span>Phone Number</span>
-            </div>
-            <div class="inputBox w100">
-              <textarea name="message" required></textarea>
-              <span>Write your Message here ....</span>
-            </div>
-            <div class="inputBox w100">
-              <input type="submit" name="submit" value="Send" />
+                <span>sales1@manufacturingsolutions.com.mx</span>
+              </li>
+              <li>
+                <span><img src="img/phone.svg" alt="" width="30px" /></span>
+                <span>+52 (686) 580 1722</span>
+              </li>
+            </ul>
+            <div class="map">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3361.376964014355!2d-115.40526968462387!3d32.596136100493204!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80d776c7e386664f%3A0x61b4edbec5922c84!2sManufacturing%20Solutions%20De%20M%C3%A9xico%20S.A%20De%20C.V!5e0!3m2!1ses-419!2smx!4v1601683697615!5m2!1ses-419!2smx"
+                width="400"
+                height="300"
+                frameborder="0"
+                style="border: 0"
+                allowfullscreen=""
+                aria-hidden="false"
+                tabindex="0"
+              ></iframe>
             </div>
           </div>
+          <div class="contacForm">
+            <h2>Send a Message</h2>
+            <div class="formBox">
+              <div class="inputBox w50">
+                <input type="text" name="name" required />
+                <span>First Name</span>
+              </div>
+              <div class="inputBox w50">
+                <input type="text" name="lastName" required />
+                <span>Last Name</span>
+              </div>
+              <div class="inputBox w50">
+                <input type="text" name="mail" required />
+                <span>Email Address</span>
+              </div>
+              <div class="inputBox w50">
+                <input type="text" name="phone" required />
+                <span>Phone Number</span>
+              </div>
+              <div class="inputBox w100">
+                <textarea name="message" required></textarea>
+                <span>Write your Message here ....</span>
+              </div>
+              <div class="inputBox w100">
+                <input type="submit" name="submit" value="Send" />
+              </div>
+            </div>
+          </div>
         </div>
-      </div>
+      </form>
     </section>
   </body>
 </html>
