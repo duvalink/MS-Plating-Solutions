@@ -26,8 +26,8 @@
     </div>
     <div class="banner-gral">
       <p>
-        Industrial del Papel No. 22. Industrial Park "El Vigia 1", Mexicali, Baja
-        California, Mexico<span>-----</span> Tel. +52 (686) 580 1722<span
+        Industrial del Papel No. 22. Industrial Park "El Vigia 1", Mexicali,
+        Baja California, Mexico<span>-----</span> Tel. +52 (686) 580 1722<span
           >-----</span
         >
         Email: sales1@manufacturingsolutions.com.mx
@@ -80,29 +80,29 @@
         </div>
         <div class="contacForm">
           <h2>Send a Message</h2>
-          <div class="formBox">
+          <div class="formBox" action="contactform.php" method="post">
             <div class="inputBox w50">
-              <input type="text" required />
+              <input type="text" name="name" required />
               <span>First Name</span>
             </div>
             <div class="inputBox w50">
-              <input type="text" required />
+              <input type="text" name="lastName" required />
               <span>Last Name</span>
             </div>
             <div class="inputBox w50">
-              <input type="text" required />
+              <input type="text" name="mail" required />
               <span>Email Address</span>
             </div>
             <div class="inputBox w50">
-              <input type="text" required />
+              <input type="text" name="phone" required />
               <span>Phone Number</span>
             </div>
             <div class="inputBox w100">
-              <textarea name="" required></textarea>
+              <textarea name="message" required></textarea>
               <span>Write your Message here ....</span>
             </div>
             <div class="inputBox w100">
-              <input type="submit" value="Send" />
+              <input type="submit" name="submit" value="Send" />
             </div>
           </div>
         </div>
