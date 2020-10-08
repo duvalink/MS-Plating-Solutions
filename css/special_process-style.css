@@ -446,6 +446,12 @@ footer {
   background-color: #1a2b6d;
 }
 
+@media (max-width: 1920px) {
+  .black-oxide-txt {
+    margin-left: 21%;
+  }
+}
+
 @media (max-width: 1600px) {
   .ancho {
     width: 90%;
@@ -589,5 +595,3 @@ footer {
     width: 90%;
   }
 }
-
-
